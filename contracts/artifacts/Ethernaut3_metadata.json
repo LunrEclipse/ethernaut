@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "flipper",
+				"outputs": [
+					{
+						"internalType": "contract CoinFlip",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "guess",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/3_Ethernaut.sol": "Ethernaut3"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/3_CoinFlip.sol": {
+			"keccak256": "0x65606ae2d0380d0a404b74f147c649227a9ec6aa919517760d47125b1fa53637",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://78a3bf4df95139c0e94c022ec014dc5a924bf71e1d38360fe8c1d17f409ecdda",
+				"dweb:/ipfs/QmexB4RzKsHteMoY8z7JmdDpVhR8u2DFFrqcdvMTJq9GpF"
+			]
+		},
+		"contracts/3_Ethernaut.sol": {
+			"keccak256": "0x070023319dfb248a715f398ba844ce55d90b71fffc21a70c3f2b17389697345c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f962118e890fc96032e9e12fcdea4776480f0efa087d5b6f82ab938d0db5a1f9",
+				"dweb:/ipfs/QmRhppdKrjpg13Equa6SPC4tdsPdbNEHf9ixgss2fYQnjo"
+			]
+		}
+	},
+	"version": 1
+}
